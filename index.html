@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang=eng>
+<head>
+    <title>Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/portfolio.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body> 
+    <div class="page-header">
+    <h1 class = "center">Guessing Game</h1>      
+  </div>
+<div class = "container">
+<div class = "jumbotron center">
+<form id = "test">
+  <h2 id = "message">Guess a number between 1-100</h2>
+  <input id = "userGuess" type="text" name="userGuess">
+</form>
+<button id = "submit" class = "btn-success btn-lg">Submit Guess</button>
+ <button id = "hint" class = "btn-success btn-lg">Give Hint</button>
+<h4 id = "message">Stuck? Put in a number and ask for a hint</h4>
+  <p>Previous Guesses:</p>
+  <p id = "userGuessList"></p>
+</div>
+</div>
+  
+</body>
+</html>
